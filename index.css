@@ -1,0 +1,94 @@
+body {
+    background-image: url("../slike/americka_kuca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.sadrzaj {
+    background-color: #00000096;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#naziv_sajta {
+    background-color: lightblue;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#dugme_na_gore {
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    padding: 8px 20px;
+}
+
+#dugme_na_gore:hover {
+    background-color: greenyellow;
+    color: red;
+    border-radius: 30px;
+}
+
+.navigacija {
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+.navigacija a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigacija a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.navigacija a.aktivna {
+    background-color: lightgreen;
+    color: white;
+}
+.slika{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+}
+
+
+input[type=text], select, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    display: block;
+    background-color: lightcyan;
+    color: green;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;  
+    box-shadow: 0 5px yellow;
+    text-transform: uppercase;
+}
+
+form input[type=text]:focus{
+  background-color: lightsteelblue;
+  letter-spacing: 3px;
+}
+

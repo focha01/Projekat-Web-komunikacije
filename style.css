@@ -1,0 +1,55 @@
+     body{
+       background-image: url("../slike/city.jpg");
+       background-repeat: no-repeat;
+       background-size: cover ;
+       background-position-y: 150px ;
+       background-position-x: -600px ;
+     }
+     #naziv_sajta {
+       background-color: red;
+         color: white;
+         border: 2px dotted white;
+         border-radius: 50%;
+         margin: 30px;
+         padding: 30px;
+
+      text-align: center;
+    }
+
+    #dugme_na_gore {
+      background-color:green;
+      color: white;
+      border: 2px solid black;
+      margin-left: 1800px;
+      padding: 8px 20px;
+    }
+    #dugme_na_gore:hover{
+        background-color: greenyellow;
+        color: red;
+        border-radius: 30px;
+    }
+
+    .navigacija {
+      overflow: hidden;
+      background-color: lightblue;
+    }
+
+    .navigacija a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    .navigacija a:hover {
+      background-color: lightgreen;
+      color: black;
+    }
+
+    .navigacija a.aktivna {
+      background-color: lightgreen;
+      color: white;
+    }
+  
